@@ -14,7 +14,6 @@ public class AbiPathProvider {
     private static final String TAG = "AbiPathProvider";
 
     public static final String XCRASH_DUMPER_LIB_NAME = "xcrash_dumper";
-    public static final String XCRASH_DUMPER_LIB_FULL_NAME = "libxcrash_dumper.so";
 
     public static void test(Context context, String libName) {
         Log.d(TAG, "getAbiPathFromDefault: " + getAbiPathFromDefault(context, libName));
